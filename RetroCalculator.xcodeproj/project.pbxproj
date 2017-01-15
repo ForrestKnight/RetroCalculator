@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED3E7421DD2A02D008BAC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3E7411DD2A02D008BAC39 /* AppDelegate.swift */; };
+		5ED3E7441DD2A02D008BAC39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED3E7431DD2A02D008BAC39 /* ViewController.swift */; };
+		5ED3E7471DD2A02D008BAC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3E7451DD2A02D008BAC39 /* Main.storyboard */; };
+		5ED3E7491DD2A02D008BAC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3E7481DD2A02D008BAC39 /* Assets.xcassets */; };
+		5ED3E74C1DD2A02D008BAC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3E74A1DD2A02D008BAC39 /* LaunchScreen.storyboard */; };
+		5ED3E7541DD2B6E0008BAC39 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3E7531DD2B6E0008BAC39 /* Minecraft.ttf */; };
+		5ED3E7561DD2B94C008BAC39 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ED3E7551DD2B94C008BAC39 /* btn.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ED3E73E1DD2A02D008BAC39 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED3E7411DD2A02D008BAC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ED3E7431DD2A02D008BAC39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ED3E7461DD2A02D008BAC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ED3E7481DD2A02D008BAC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED3E74B1DD2A02D008BAC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ED3E74D1DD2A02D008BAC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED3E7531DD2B6E0008BAC39 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		5ED3E7551DD2B94C008BAC39 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED3E73B1DD2A02C008BAC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED3E7351DD2A02C008BAC39 = {
+			isa = PBXGroup;
+			children = (
+				5ED3E7401DD2A02D008BAC39 /* RetroCalculator */,
+				5ED3E73F1DD2A02D008BAC39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED3E73F1DD2A02D008BAC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3E73E1DD2A02D008BAC39 /* RetroCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED3E7401DD2A02D008BAC39 /* RetroCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5ED3E7531DD2B6E0008BAC39 /* Minecraft.ttf */,
+				5ED3E7551DD2B94C008BAC39 /* btn.wav */,
+				5ED3E7411DD2A02D008BAC39 /* AppDelegate.swift */,
+				5ED3E7431DD2A02D008BAC39 /* ViewController.swift */,
+				5ED3E7451DD2A02D008BAC39 /* Main.storyboard */,
+				5ED3E7481DD2A02D008BAC39 /* Assets.xcassets */,
+				5ED3E74A1DD2A02D008BAC39 /* LaunchScreen.storyboard */,
+				5ED3E74D1DD2A02D008BAC39 /* Info.plist */,
+			);
+			path = RetroCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED3E73D1DD2A02C008BAC39 /* RetroCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED3E7501DD2A02D008BAC39 /* Build configuration list for PBXNativeTarget "RetroCalculator" */;
+			buildPhases = (
+				5ED3E73A1DD2A02C008BAC39 /* Sources */,
+				5ED3E73B1DD2A02C008BAC39 /* Frameworks */,
+				5ED3E73C1DD2A02C008BAC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroCalculator;
+			productName = RetroCalculator;
+			productReference = 5ED3E73E1DD2A02D008BAC39 /* RetroCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED3E7361DD2A02C008BAC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Forrest Knight";
+				TargetAttributes = {
+					5ED3E73D1DD2A02C008BAC39 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RPX5FXH8WZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5ED3E7391DD2A02C008BAC39 /* Build configuration list for PBXProject "RetroCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED3E7351DD2A02C008BAC39;
+			productRefGroup = 5ED3E73F1DD2A02D008BAC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED3E73D1DD2A02C008BAC39 /* RetroCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED3E73C1DD2A02C008BAC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED3E7561DD2B94C008BAC39 /* btn.wav in Resources */,
+				5ED3E74C1DD2A02D008BAC39 /* LaunchScreen.storyboard in Resources */,
+				5ED3E7491DD2A02D008BAC39 /* Assets.xcassets in Resources */,
+				5ED3E7541DD2B6E0008BAC39 /* Minecraft.ttf in Resources */,
+				5ED3E7471DD2A02D008BAC39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED3E73A1DD2A02C008BAC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED3E7441DD2A02D008BAC39 /* ViewController.swift in Sources */,
+				5ED3E7421DD2A02D008BAC39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5ED3E7451DD2A02D008BAC39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED3E7461DD2A02D008BAC39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ED3E74A1DD2A02D008BAC39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED3E74B1DD2A02D008BAC39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED3E74E1DD2A02D008BAC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED3E74F1DD2A02D008BAC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED3E7511DD2A02D008BAC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPX5FXH8WZ;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ForrestKnight.RetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5ED3E7521DD2A02D008BAC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPX5FXH8WZ;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ForrestKnight.RetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED3E7391DD2A02C008BAC39 /* Build configuration list for PBXProject "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED3E74E1DD2A02D008BAC39 /* Debug */,
+				5ED3E74F1DD2A02D008BAC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED3E7501DD2A02D008BAC39 /* Build configuration list for PBXNativeTarget "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED3E7511DD2A02D008BAC39 /* Debug */,
+				5ED3E7521DD2A02D008BAC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED3E7361DD2A02C008BAC39 /* Project object */;
+}
