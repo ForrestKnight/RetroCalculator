@@ -2,7 +2,7 @@
 
 This is a retro-themed simple calculator.
 
-#What I Learned
+# What I Learned
 
 * Write simple math operations with Swift
 * Integrate UIButtons and sounds
