@@ -1,6 +1,6 @@
 # RetroCalculator
 
-This is a retro-themed simple calculator.
+This is a retro-themed simple calculator iOS application.
 
 # What I Learned
 
